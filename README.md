@@ -73,7 +73,7 @@ Remote has a variety of text editors available. If you prefer a graphical text e
 Open your favorite text editor and write a simple Hello World program in C. Name your source code file ”hw.c”
 
 ```C
-#include <stdio .h>
+#include <stdio.h>
 
 int main() {
   printf (”Hello World!\n”) ; 
