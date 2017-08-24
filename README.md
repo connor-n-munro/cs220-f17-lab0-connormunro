@@ -57,7 +57,7 @@ Then, clone this repository to get a copy of the source code onto your account. 
 ```shell
 git clone URL
 ```
-... where URL is the copied text ending in ".git".
+... where URL is the copied text ending in ".git". **Now that you have cloned the repository, make all changes in the directory just created, not in the top-level `cs220` directory.**
 
 We will explore git workflows in-depth later in this lab.
 
@@ -116,7 +116,7 @@ hw: hw.c
 
 clean:
 	rm −f hw
-	rm *~ #*#
+	rm -f *~ #*#
 ```
 
 Make has the following form on the command line:
@@ -180,7 +180,7 @@ The `-a` says that git should add all tracked files with changes to your commit,
 What about _untracked files_? Run the following commands:
 
 ```shell
-echo $(whoami)@$(hostname):$(pwd) > information.txt
+echo "Anything you want to put in the file!" > information.txt
 git status
 ```
 
