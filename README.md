@@ -31,7 +31,16 @@ ssh username@remote.cs.binghamton.edu
 
 ## Writing Hello World
 
-After loging in, open a terminal. You should be at your home directory. In this directory, create a new directory for this class:
+After loging in, open a terminal. 
+
+First, let's set up our `git` credentials. Enter the following two commands in the terminal:
+
+```shell
+git config --global user.name "Firstname Lastname"
+git config --global user.email "email@binghamton.edu"
+```
+
+You should be at your home directory. In this directory, create a new directory for this class:
 
 ```shell
 mkdir cs220
@@ -43,11 +52,12 @@ Change your working directory:
 cd cs220
 ```
 
-Then, clone this repository to get a copy of the source code onto your account.
+Then, clone this repository to get a copy of the source code onto your account. To do this, look at the Github landing page for your fork of this project. You should see a green button that says "Clone or download". Press it and choose "Clone with HTTPS" if you haven't already. You should see something like `https://github.com/bucs220/F17L0.git`. Copy that text then execute the following command in the terminal:
  
 ```shell
-git clone URL.git
+git clone URL
 ```
+... where URL is the copied text ending in ".git".
 
 We will explore git workflows in-depth later in this lab.
 
@@ -210,5 +220,16 @@ That's it! We've completed our work for this lab. Now to submit it.
                               
 ## Submission
 
-:warning: Please read submission instructions carefully. Any deviations from specifications on future labs, assignments or projects will result in point deductions or incomplete grades. 
+:no_entry: Please read submission instructions carefully. Any deviations from specifications on future labs, assignments or projects will result in point deductions or incomplete grades. 
 
+1. Create a release of your repository:
+	1. Click "releases", next to the tag icon.
+	2. Click the "Create a new release" button.
+	3. Fill in the tag version (i.e. 1.0), the release title (i.e. "First submission!") and add any comments that the grader needs to know about your submission.
+	4. Click the "Publish release" button.
+	5. On the next page, you will see that your release has a 7-digit hexadecimal number. This is the hash of the release, uniquely identifying the state of the repository that was used to make the release. Copy that.
+2. Log onto MyCourses.
+	1. Find this assignment.
+	2. Make a submission as you normally would for any other class. The difference is that instead of uploading an archive file or source code, all you should do is paste the 7-digit hash into the comments.
+	
+The MyCourses submission notifies the graders that your repository is ready to be graded. Your grade for the lab, assignment or project will be recorded on MyCourses.
