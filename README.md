@@ -232,4 +232,4 @@ That's it! We've completed our work for this lab. Now to submit it.
 	1. Find this assignment.
 	2. Make a submission as you normally would for any other class. The difference is that instead of uploading an archive file or source code, all you should do is paste the 7-digit hash into the comments.
 	
-The MyCourses submission notifies the graders that your repository is ready to be graded. Your grade for the lab, assignment or project will be recorded on MyCourses.
+The MyCourses submission notifies the graders that your repository is ready to be graded. Your grade for the lab, assignment or project will be recorded on MyCourses. **For labs, the TAs can grade your submission on the spot. Simply raise your hand to get our attention.**
