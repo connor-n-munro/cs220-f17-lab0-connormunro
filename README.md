@@ -94,7 +94,7 @@ target: dependencies
 
 :warning: Note that `command` is indented using a tab character, not spaces! 
 
-:idea: Also note that a target can have multiple dependencies (all on one line) and multiple commands (on separate lines, as does the `clean` target below).  
+:bulb: Also note that a target can have multiple dependencies (all on one line) and multiple commands (on separate lines, as does the `clean` target below).  
 
 Create a Makefile for your Hello World program. Here is a simple example:
 
@@ -127,9 +127,12 @@ You can also provide multiple targets for make. For example:
 make clean hw
 ```
 
-This make command will delete your existing `hw` binary and compile a new one. To learn more about make and Makefile, here are some useful resources:
+This make command will delete your existing `hw` binary and compile a new one. 
+
+:bulb: To learn more about make and Makefile, here are some useful resources:
 
 - http://www.gnu.org/software/make/manual/make.html
+- http://opensourceforu.com/2012/06/gnu-make-in-detail-for-beginners/
 
 ## Archives
 
@@ -207,5 +210,5 @@ That's it! We've completed our work for this lab. Now to submit it.
                               
 ## Submission
 
-:warn: Please read submission instructions carefully. Any deviations from specifications on future labs, assignments or projects will result in point deductions or incomplete grades. 
+:warning: Please read submission instructions carefully. Any deviations from specifications on future labs, assignments or projects will result in point deductions or incomplete grades. 
 
